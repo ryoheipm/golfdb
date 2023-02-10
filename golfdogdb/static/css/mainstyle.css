@@ -4,7 +4,7 @@ body {
     margin: 0%;
 }
 .main{
-    background: #eaf0f1 url(/static/css/images/IMG_4151.jpg);
+    background: #eaf0f1 url(https://ryoheipm.github.io/golfdb/golfdogdb/static/css/images/IMG_4151.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center top;
