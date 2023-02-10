@@ -44,31 +44,31 @@ function initFunc(){
         }
         switch (true){
             case totalScore == 11:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result11.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result11.html");
                 break;
             case totalScore == 12:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result12.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result12.html");
                 break;
             case totalScore == 13:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result13.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result13.html");
                 break;
             case totalScore == 21:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result21.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result21.html");
                 break;
             case totalScore == 22:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result22.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result22.html");
                 break;
             case totalScore == 23:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result23.html");
+                $(".start").attr("href", "hhttps://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result23.html");
                 break;
             case totalScore == 31:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result31.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result31.html");
                 break;
             case totalScore == 32:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result32.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result32.html");
                 break;
             default:
-                $(".start").attr("href", "http://127.0.0.1:5500/temp/html/result33.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result33.html");
         }
     }
         
