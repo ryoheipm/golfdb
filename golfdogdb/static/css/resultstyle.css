@@ -1,0 +1,233 @@
+body{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    margin: 0;
+}
+.content-box {
+    margin-top: 30px;
+}
+  h4 {
+    background: #000;
+    width: 714px;
+    color: #FFF;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-bottom: 4px solid #CCC;
+}
+h5 {
+    width: 664px;
+    color: #000;
+    font-size: 16px;
+    padding: 20px 25px 20px 25px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: bold;
+    background: #FFF;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+}
+strong {
+    font-weight: bold;
+}
+.btn {
+    display: block;
+    padding: 10px;
+    width: 130px;
+    border-radius: 5px;
+    border: 3px solid #000;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFF;
+}
+
+.img {
+    /* 画像は180 × 180 */
+    padding: 10px 5px 0;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.text {
+    float: right;
+    width: 175px;
+    color: #000;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+p {
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-position: 0px 4px;
+}
+.clearfix {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px 15px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+.merc {
+    margin: 0 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid;
+}
+
+#type1 {
+    background: #e49191;
+    border: 8px solid #000;
+    padding-top: 30px;
+    box-sizing: border-box;
+    width: 900px;
+    margin: auto;
+}
+#type2 {
+    background: #e4dd91;
+    border: 8px solid #000;
+    padding-top: 30px;
+    box-sizing: border-box;
+    width: 900px;
+    margin: auto;
+}
+
+#type3 {
+    background: #919ce4;
+    border: 8px solid #000;
+    padding-top: 30px;
+    box-sizing: border-box;
+    width: 900px;
+    margin: auto;
+}
+.againButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+	padding: 0.8em 3em;
+	background-color: #82AAE3; /* 背景色 */
+	box-shadow: 0 5px 0 #698bba; /* 影の太さ・色 */
+	border-radius: 60px;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none; /* 文字の下線を消す */
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+/* クリック時 */
+.againButton:active {
+	box-shadow: none;
+	transform: translateY(5px);
+  }
+.agbtn{
+    width: 900px;
+    margin: auto;
+}
+  /*カラーコード 
+  82AAE3
+  91D8E4
+  BFEAF5
+  EAFDFC
+   */
+
+   /* ----------------headerCSS------------------------- */
+   header{
+    background-color: #91D8E4;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    }
+       
+.h-nav{
+    width: 100%;
+    height: 80px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+.h-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    }
+.h-nav li {
+    margin-right: 55px;
+    }
+.h-nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+.hedlogo{
+    height: 50px;
+    margin: 15px 0 15px 15px;
+}
+/* ----------------headerCSS------------------------- */
+
+/* --------------footerCSS----------------- */
+.follow-me {
+  list-style: none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  float: left;
+  margin: 0 8px 8px 0;
+  padding: 0;
+}
+.follow-me li a::before {
+
+  margin: 15px 0 15px 30px;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 42px; /* Button height */
+  line-height: 42px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 42px; /* Button width */
+}
+.follow-me li a[href*="twitter.com"]::before        { border-color: #55acee; background-color: #55acee; content: "\f099"; }
+.follow-me li a:hover::before {
+  background-color: #fff;
+}
+.follow-me li a[href*="twitter.com"]:hover::before        { color: #55acee; }
+
+.follow-me li p{
+    font-size: 15px;
+    display: block;
+    margin-top: 25px;
+    color: #fff;
+}
+footer{
+    background-color: #91D8E4;
+    height: 80px;
+}
+/* --------------footerCSS----------------- */
+

@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<title>GOLFdogDB</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="/static/css/style.css">
+        <style type="text/css"></style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<div class="h-logo">
+				<a href="http://127.0.0.1:5500/temp/html/main.html"><img class="hedlogo" src="/static/css/images/doglogo.png" alt="ロゴ"></a>
+			</div>
+			<div class="h-nav">
+			  <ul>
+				<li><a href="http://127.0.0.1:5500/temp/html/main.html">TOP</a></li>
+				<li><a href="http://127.0.0.1:5500/temp/html/main.html#info">お知らせ</a></li>
+				<li><a href="http://127.0.0.1:5500/temp/html/main.html#mese">管理人メッセージ</a></li>
+				<li><a href="https://twitter.com/Golken86">お問合せ(TwitterDM)</a></li>
+			  </ul>
+			</div>
+		</header>
+		<div id="qAll">
+			<div id="qArea">
+				<div id="qContainer">	
+					<div class="qBox">
+						<div class="ques"><span class="qNum">Q1</span>ドライバーの悩みを教えてください</div>
+						<ul>
+							<li class="select" id="0_0" sc="1">スライスのミスを減らしたい</li>
+							<li class="select" id="0_1" sc="2">球のバラつきを減らしたい</li>
+							<li class="select" id="0_2" sc="3">スピンを減らして飛ばしたい</li>
+						</ul>
+					</div>
+					<div class="qBox">
+						<div class="ques"><span class="qNum">Q2</span>ヘッドスピードを教えてください</div>
+						<ul>
+							<li class="select" id="1_0" sc="10">遅め(39以下)</li>
+							<li class="select" id="1_1" sc="20">普通(40から43)</li>
+							<li class="select" id="1_2" sc="30">速め(44以上)</li>
+						</ul>
+					</div>	
+					<div class="qBox">
+							<a class="start" href="#">結果を見る</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<ul class="follow-me">
+			<li><a href="https://twitter.com/Golken86"></a></li>
+			<li><p>お問合せはTwitterのDMまでお願いします</p></li>
+			</ul>
+		</footer>
+        <!-- ライブラリ読み込み -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- jsファイル読み込み -->
+        <script src="/static/javascript/app.js"></script>
+	</body>
+</html>
