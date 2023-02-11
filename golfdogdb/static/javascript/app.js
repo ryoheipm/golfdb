@@ -59,7 +59,7 @@ function initFunc(){
                 $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result22.html");
                 break;
             case totalScore == 23:
-                $(".start").attr("href", "hhttps://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result23.html");
+                $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result23.html");
                 break;
             case totalScore == 31:
                 $(".start").attr("href", "https://ryoheipm.github.io/golfdb/golfdogdb/temp/html/result31.html");
